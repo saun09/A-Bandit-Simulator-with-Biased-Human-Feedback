@@ -74,7 +74,7 @@ Thompson Sampling generally performs better across biases, especially under nois
 
 - This table measures fairness by tracking how often items from **Group A** were selected. Ideally, if both groups have equal quality, the ratio should be close to **0.5**.
 
-Significant deviation (e.g., ε-Greedy with honest users selecting Group A 75% of the time) suggests **algorithmic favoritism**—which may stem from biased feedback loops. This mimics real-world settings like TikTok, where viral trends can lead to echo chambers, disproportionately promoting one content genre or demographic group over others.
+Significant deviation (ex- ε-Greedy with honest users selecting Group A 75% of the time) suggests **algorithmic favoritism**—which may stem from biased feedback loops. This mimics real-world settings like TikTok, where viral trends can lead to echo chambers, disproportionately promoting one content genre or demographic group over others.
 
 Thompson Sampling maintains near-0.5 group balance on average, indicating that probabilistic exploration can help mitigate unintended group-level disparities in attention or exposure.
 
