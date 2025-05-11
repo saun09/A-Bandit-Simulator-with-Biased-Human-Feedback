@@ -4,7 +4,7 @@
 Simulate how biased or noisy human feedback impacts the learning efficiency and fairness of online decision-making agents using bandit algorithms.
 
 ## Introduction
-Online systems frequently learn from human preferences rather than explicit rewards. In real-world settings, human feedback is often noisy, delayed, or strategically biased (e.g., favoring recent or popular items). We build a Python simulator to quantify how these biases impact:  
+Online systems frequently learn from human preferences rather than explicit rewards. In real-world settings, human feedback is often noisy, delayed, or strategically biased (ex-favoring recent or popular items). We build a Python simulator to quantify how these biases impact:  
 - **Learning efficiency** (cumulative regret)  
 - **Fairness** (selection disparity between two synthetic item groups)
   
@@ -40,7 +40,7 @@ Online systems frequently learn from human preferences rather than explicit rewa
 - Thompson Sampling consistently outperformed ε-Greedy under high noise.
 - Recency-biased feedback led to over-selection of lower-quality items.
 - Group A received ~70% of selections under random user model, indicating fairness issues.
- - Final Cumulative Regret
+ ## Final Cumulative Regret
 
 | Algorithm          | Bias         | Mean Regret | Std Dev Regret |
 |--------------------|--------------|-------------|----------------|
@@ -55,7 +55,6 @@ Online systems frequently learn from human preferences rather than explicit rewa
 
 
 ## Fairness: Group-A Selection Ratio  
-From each file `results/{agent}_{bias}_groups.csv`, we take the five final‐run ratios and compute mean ± std.  
 
 | Algorithm          | Bias         | Mean Group-A Ratio | Std Dev Ratio |
 |--------------------|--------------|---------------------|----------------|
