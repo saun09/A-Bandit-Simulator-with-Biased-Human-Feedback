@@ -53,10 +53,6 @@ Online systems frequently learn from human preferences rather than explicit rewa
 | Thompson Sampling  | random       | 0.228210    | 0.239611       |
 | Thompson Sampling  | recent_bias  | 0.366670    | 0.286378       |
 
-<div align="center">  
-![Mean ± Std Cumulative Regret](docs/img/combined_regret.png)  
-*Figure 1. Mean ± standard deviation of cumulative regret over 500 timesteps.*  
-</div>
 
 ## Fairness: Group-A Selection Ratio  
 From each file `results/{agent}_{bias}_groups.csv`, we take the five final‐run ratios and compute mean ± std.  
@@ -79,10 +75,6 @@ From each file `results/{agent}_{bias}_groups.csv`, we take the five final‐run
 | Thompson Sampling  | 0.152934                 | 0.139695         | 0.49960             | 0.00040                  |
 
 
-<div align="center">  
-![Group-A Selection Ratios](docs/img/combined_group_ratio.png)  
-*Figure 2. Mean group-A selection ratio across user models and algorithms.*  
-</div>
 
 
 ## Interpretation
