@@ -1,7 +1,10 @@
 # A-Bandit-Simulator-with-Biased-Human-Feedback
 https://saun09-a-bandit-simulator-with-biased-human-feedback.streamlit.app/
-![demo1](https://github.com/user-attachments/assets/6c9cb6b4-88fb-488c-bba6-780cd4c02f33)
-![demo2](https://github.com/user-attachments/assets/c302d155-8b23-4c22-b26a-4f555f9ac38d)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6c9cb6b4-88fb-488c-bba6-780cd4c02f33" width="400"/>
+  <img src="https://github.com/user-attachments/assets/c302d155-8b23-4c22-b26a-4f555f9ac38d" width="400"/>
+</p>
+
 
 ## Problem
 Simulate using python, how biased or noisy human feedback impacts the learning efficiency and fairness of online decision-making agents using bandit algorithms.
