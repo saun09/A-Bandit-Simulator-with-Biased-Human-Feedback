@@ -2,8 +2,8 @@
 https://saun09-a-bandit-simulator-with-biased-human-feedback.streamlit.app/
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6c9cb6b4-88fb-488c-bba6-780cd4c02f33" width="400"/>
-<!--   <img src="https://github.com/user-attachments/assets/c302d155-8b23-4c22-b26a-4f555f9ac38d" width="400"/> -->
-  <img src= "https://github.com/user-attachments/assets/3fbf62a1-5234-49c3-abc7-6df7ce2e2078" width="400 />
+ <img src="https://github.com/user-attachments/assets/c302d155-8b23-4c22-b26a-4f555f9ac38d" width="350"/>
+
 
 </p>
 
