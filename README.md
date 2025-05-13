@@ -64,6 +64,7 @@ Online systems frequently learn from human preferences rather than explicit rewa
 
 - This table shows how much regret (missed reward) the learning agent accumulates when interacting with different types of user feedback. Lower regret means the algorithm is learning user preferences more efficiently.
 ![combined_regret](https://github.com/user-attachments/assets/89b58f2f-bfd1-4485-9c8a-39c90c589345)
+
 For example, the ε-Greedy algorithm under **random feedback** shows high regret (0.414), meaning it's unable to reliably learn what users like—similar to a recommender system that asks users to rate videos they’ve barely watched. In contrast, **honest feedback** leads to zero regret, indicating ideal learning conditions.
 
 Thompson Sampling generally performs better across biases, especially under noise, highlighting its robustness in environments like YouTube’s recommender engine, where user likes/dislikes are delayed, inconsistent, or strategically manipulated.
