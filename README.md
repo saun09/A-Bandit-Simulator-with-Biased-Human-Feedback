@@ -6,8 +6,7 @@ https://saun09-a-bandit-simulator-with-biased-human-feedback.streamlit.app/
 
 
 </p>
-
-
+Other user models like "noisy", "random", and "recent_bias" can also be simulated- try it on the streamlit app.
 ## Problem
 Simulate using python, how biased or noisy human feedback impacts the learning efficiency and fairness of online decision-making agents using bandit algorithms.
 
