@@ -13,7 +13,7 @@ https://saun09-a-bandit-simulator-with-biased-human-feedback.streamlit.app/
 Simulate using python, how biased or noisy human feedback impacts the learning efficiency and fairness of online decision-making agents using bandit algorithms.
 
 ## Introduction
-Online systems frequently learn from human preferences rather than explicit rewards. In real-world settings, human feedback is often noisy, delayed, or strategically biased (ex-favoring recent or popular items). We build a Python simulator to quantify how these biases impact:  
+Online systems frequently learn from human preferences rather than explicit rewards. In real-world settings, human feedback is often noisy, delayed, or strategically biased (ex-favoring recent or popular items)-Instead of numeric reward, feedback comes as “I prefer item A over B”.  Ive built this Python simulator to quantify how these biases impact:  
 - **Learning efficiency** (cumulative regret)  
 - **Fairness** (selection disparity between two synthetic item groups)
   
