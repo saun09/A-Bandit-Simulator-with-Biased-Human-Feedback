@@ -61,8 +61,9 @@ Online systems frequently learn from human preferences rather than explicit rewa
 | Thompson Sampling  | random       | 0.228210    | 0.239611       |
 | Thompson Sampling  | recent_bias  | 0.366670    | 0.286378       |
 
-- This table shows how much regret (missed reward) the learning agent accumulates when interacting with different types of user feedback. Lower regret means the algorithm is learning user preferences more efficiently.
 
+- This table shows how much regret (missed reward) the learning agent accumulates when interacting with different types of user feedback. Lower regret means the algorithm is learning user preferences more efficiently.
+![combined_regret](https://github.com/user-attachments/assets/89b58f2f-bfd1-4485-9c8a-39c90c589345)
 For example, the ε-Greedy algorithm under **random feedback** shows high regret (0.414), meaning it's unable to reliably learn what users like—similar to a recommender system that asks users to rate videos they’ve barely watched. In contrast, **honest feedback** leads to zero regret, indicating ideal learning conditions.
 
 Thompson Sampling generally performs better across biases, especially under noise, highlighting its robustness in environments like YouTube’s recommender engine, where user likes/dislikes are delayed, inconsistent, or strategically manipulated.
@@ -81,6 +82,7 @@ Thompson Sampling generally performs better across biases, especially under nois
 
 - This table measures fairness by tracking how often items from **Group A** were selected. Ideally, if both groups have equal quality, the ratio should be close to **0.5**.
 
+![combined_group_ratio](https://github.com/user-attachments/assets/1d652120-7a4b-4dde-95a9-2d74e870ed3b)
 Significant deviation (ex- ε-Greedy with honest users selecting Group A 75% of the time) suggests **algorithmic favoritism**—which may stem from biased feedback loops. This mimics real-world settings like TikTok, where viral trends can lead to echo chambers, disproportionately promoting one content genre or demographic group over others.
 
 Thompson Sampling maintains near-0.5 group balance on average, indicating that probabilistic exploration can help mitigate unintended group-level disparities in attention or exposure.
